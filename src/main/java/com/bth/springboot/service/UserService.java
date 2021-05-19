@@ -1,9 +1,9 @@
-package net.javaguides.springboot.service;
+package com.bth.springboot.service;
 
 import org.springframework.security.core.userdetails.UserDetailsService;
 
-import net.javaguides.springboot.dto.UserRegistrationDto;
-import net.javaguides.springboot.model.User;
+import com.bth.springboot.dto.UserRegistrationDto;
+import com.bth.springboot.model.User;
 
 public interface UserService extends UserDetailsService{
 	User save(UserRegistrationDto registrationDto);
